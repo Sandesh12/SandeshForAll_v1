@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sandesh</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Findbutton">Search</string>
+    <string name="Next_Activity">Next Activity</string>
+    <string name="Previous_Activity">Previous Activity</string>
+    <string name="knowmore">Sign Bible...Select one of these..</string>
+	<string name="Alphabets">Alphabets</string>
+	<string name="Numbers">Numbers</string>
+	<string name="fuw">Frequently used</string>
+	<string name="VoiceConvert">Convert Voice</string>
+    <string name="Search">Search Now</string>
+    <string name="S">Sign Bible</string>
+    <string name="T">Touch To Exit</string>
+	
+	
+	
+		
+</resources>
