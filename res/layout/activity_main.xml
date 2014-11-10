@@ -6,6 +6,7 @@
     tools:context=".MainActivity" >
 
     <GridView
+        android:background="@drawable/borderforlayout"
         android:id="@+id/gridView"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -15,8 +16,7 @@
         android:numColumns="auto_fit"
         android:verticalSpacing="5dp"
         android:drawSelectorOnTop="true"
-        android:stretchMode="columnWidth"
-        android:background="@drawable/border" >
+        android:stretchMode="columnWidth">
     </GridView>
 
 </RelativeLayout>

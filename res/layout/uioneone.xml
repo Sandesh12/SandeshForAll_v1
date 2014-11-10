@@ -86,7 +86,6 @@
             android:layout_width="fill_parent"
             android:layout_height="170dp"
             android:layout_marginTop="50dp"
-            android:background="@drawable/borderforlayout"
             android:contentDescription="searchdummy"
             android:src="@drawable/yoasl" />
 

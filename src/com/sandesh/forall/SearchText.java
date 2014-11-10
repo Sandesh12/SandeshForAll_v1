@@ -68,12 +68,21 @@ public class SearchText extends Activity implements OnClickListener,RecognitionL
 		signbtn.setOnClickListener(this);
 		exitbtn.setOnClickListener(this);
 		entertext =(EditText) findViewById(R.id.entert);
+
 		initSpeechRecognizer();
 			}
 
 	public void onClick(View v) {
 		// TODO Auto-generated method stub (Voice recognition implementation and sett to search box
+		
+				
+		InputMethodManager inputManager = (InputMethodManager) this.getSystemService(getApplicationContext().INPUT_METHOD_SERVICE);
+
+		inputManager.hideSoftInputFromWindow(v.getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
+		
 		if (v.getId() == R.id.VoiceConvert) {
+			
+			entertext.setText("");
 
 			Toast.makeText(getApplicationContext(), "Receiving", Toast.LENGTH_SHORT).show();
 			Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
@@ -90,9 +99,9 @@ public class SearchText extends Activity implements OnClickListener,RecognitionL
 		{
 			
 			
-			InputMethodManager inputManager = (InputMethodManager) this.getSystemService(getApplicationContext().INPUT_METHOD_SERVICE);
+		//	InputMethodManager inputManager = (InputMethodManager) this.getSystemService(getApplicationContext().INPUT_METHOD_SERVICE);
 
-			inputManager.hideSoftInputFromWindow(v.getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
+		//	inputManager.hideSoftInputFromWindow(v.getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
 
 			
 			
@@ -324,7 +333,6 @@ public class SearchText extends Activity implements OnClickListener,RecognitionL
 				Toast.makeText(getApplicationContext(),"Speech Recognition is not available in your phone,You have to enter text in edit box next to you",Toast.LENGTH_LONG).show();
 				vsearchbtn.setEnabled(false);
 			}
-			
 		}
 		return;
 	}

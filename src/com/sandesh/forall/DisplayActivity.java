@@ -48,7 +48,7 @@ public class DisplayActivity extends Activity implements OnClickListener{
 	    if(choice==2)
 	    	position=position+26;
 	    else if(choice==3)
-	    	position=position+36;
+	    	position=position+46;
 	    
 	    
 	    int[] bLogos = {
@@ -117,6 +117,12 @@ public class DisplayActivity extends Activity implements OnClickListener{
 	    		R.drawable.frame_044,
 	    		R.drawable.frame_045,
 	    		R.drawable.frame_046,
+	    		R.drawable.frame_047,	    		
+	    		R.drawable.frame_048,
+	    		R.drawable.frame_049,
+	    		R.drawable.frame_050,
+	    		R.drawable.frame_051,
+	    		R.drawable.frame_052
 	    			    		
 	    } ;
 	    
