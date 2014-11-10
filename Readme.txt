@@ -2,7 +2,7 @@
 ---Version :1
 ---Project developed for GHC Hackathon 2014
 ----------------------------------------------------------------------------------------------------------------------
----Authors
+---Developed by :
 bailkeri@gmail.com
 pavithra.achar74@gmail.com
 anand.savitha@gmail.com
